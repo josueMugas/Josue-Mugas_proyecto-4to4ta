@@ -32,5 +32,9 @@ void loop()
       digitalWrite(3,LOW);
       digitalWrite(4,HIGH);
     }
+  }else{
+      digitalWrite(2,LOW);
+      digitalWrite(3,LOW);
+      digitalWrite(4,LOW);
   }
 }
