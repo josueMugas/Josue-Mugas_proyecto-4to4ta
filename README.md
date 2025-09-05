@@ -1,4 +1,5 @@
-que en los define se vean asi es por culpa del github tube que ponerles "" porq sine pasa # esto
+que en los define se vean asi es por culpa del github tube que ponerles "" porq sino se ponia todo gigante
+
 en este día yo falte al colegio debido a que me encontraba enfermo pero estuvimos mejorando los motores y haciendo que tenga la capacidad de identificar si está o no está en una línea negra 
 
  
