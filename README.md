@@ -1,23 +1,24 @@
 en este día yo falte al colegio debido a que me encontraba enfermo pero estuvimos mejorando los motores y haciendo que tenga la capacidad de identificar si está o no está en una línea negra 
+
  
 así quedo funcionando y el código fue el siguiente:
 //entrada motores
 
-# define ENTRADAM1 5
+"#" define ENTRADAM1 5
 
-# define ENTRADAM2 6
+"#" define ENTRADAM2 6
 
 // Control motores
 
-# define ControlM1A 7
+"#" define ControlM1A 7
 
-# define ControlM1B 8
+"#" define ControlM1B 8
 
 // Control motor2
 
-# define ControlM2A 9
+"#" define ControlM2A 9
 
-# define ControlM2B	11
+"#" define ControlM2B	11
 
 
 
