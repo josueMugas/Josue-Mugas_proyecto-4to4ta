@@ -1,3 +1,4 @@
+que en los define se vean asi es por culpa del github tube que ponerles "" porq sine pasa # esto
 en este día yo falte al colegio debido a que me encontraba enfermo pero estuvimos mejorando los motores y haciendo que tenga la capacidad de identificar si está o no está en una línea negra 
 
  
