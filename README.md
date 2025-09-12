@@ -3,36 +3,67 @@ carpeta dia 2
 en el  dia de hoy en el colegio estuvimos viendo servomotores y la manera de dividir el codigo en funciones
 aparte en el dia pudimos implementar de manera casi perfecta el sensor de distancia ultrasonico  
 el codigo termino siendo el siguiente:
+
 //entrada motores
-# define ENTRADAM1 5
-# define ENTRADAM2 6
+
+#. define ENTRADAM1 5
+
+#. define ENTRADAM2 6
+
 // Control motoresr
-# define ControlM1A 7
-# define ControlM1B 8
+
+#. define ControlM1A 7
+
+#. define ControlM1B 8
+
 // Control motor2
-# define ControlM2A 9
-# define ControlM2B	11
+
+#. define ControlM2A 9
+
+#. define ControlM2B	11
+
 //sensor de sonido
-# define trig 12
-# define echo 13
+
+#. define trig 12
+
+#. define echo 13
+
 float tiempo,distancia;
+
 void setup()
+
 {	
+
   Serial.begin(9600);
-  		//Motores//
+  
+   . //Motores//
+  
   pinMode(ENTRADAM1 ,OUTPUT);
+  
   pinMode(ENTRADAM2 ,OUTPUT);
+ 
   pinMode(ControlM1A,OUTPUT);
+  
   pinMode(ControlM1B,OUTPUT);
+  
   pinMode(ControlM2A,OUTPUT);
+  
   pinMode(ControlM2B,OUTPUT);
- 		//sensores//
+ 	
+   //sensores//
+  
   pinMode( 2,INPUT);
+  
   pinMode( 4,INPUT);
+  
   pinMode(10,INPUT);
+  
   pinMode(trig,OUTPUT);
+  
   pinMode(echo,INPUT);
+
 }
+
 
 void loop()
 {
