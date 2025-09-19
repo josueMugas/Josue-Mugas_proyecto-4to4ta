@@ -40,8 +40,11 @@ void avanza(){
 }
 void atrasas(){
   	grados-=10;
+  	if(grados<0){
+    	grados=0;
+    }
 	servo1.write(grados);
   	servo2.write(grados);
-     delay(1000);
+    delay(1000);
   
 }
